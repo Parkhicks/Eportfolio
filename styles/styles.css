@@ -1,0 +1,24 @@
+header{
+    background-color: #3E5C76;
+    font-family: "Bungee Spice","Georgia","Courier New";
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+  .logo{
+    width: 80px;
+    border: 10px solid #1D2D44;
+    grid-column-start: 1;
+  }
+  nav a:hover{
+    background-color: #1D2D44;
+    color: #F0EBD8;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Bungee Spice","Georgia","Courier New";
+    font-size: 1em;
+    padding: 40px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
