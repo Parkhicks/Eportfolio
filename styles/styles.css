@@ -1,3 +1,5 @@
+
+/*Header*/
 header{
     background-color: #3E5C76;
     font-family: "Bungee Spice","Georgia","Courier New";
@@ -11,6 +13,8 @@ header{
   }
   nav a:hover{
     background-color: #1D2D44;
+  }
+  nav a{
     color: #F0EBD8;
   }
   nav {
@@ -21,4 +25,43 @@ header{
     padding: 40px;
     grid-column-start: 2;
     grid-column-end: 3;
+  }
+
+  /*footer*/
+footer{
+    background-color: #3E5C76;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px; 
+  }
+  footer p , footer a{
+    color: white;
+  }
+  a:link { text-decoration: none; }
+  footer p:hover {
+    background-color: #1D2D44;
+    color: white;
+  }
+  .copyright:hover{
+    background-color: #3E5C76;
+    color: white;
+    z-index: 0;
+  }
+  .copyright{
+    color:white;
+  }
+  footer img{
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 15px;
+    border: 10px solid black;
+  }
+  footer img:hover {
+    background-color: #1D2D44;
+    border-radius: 15px;
+
   }
