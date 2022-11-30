@@ -1,8 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto+Condensed:wght@300;400;700&family=Titillium+Web:wght@300;400&display=swap');
+:root {
+  --heading-font: "RobotoC Condensed";
+  --paragraph-font: "Titillium Web";
+  font-family: "Roboto Condensed";
+  max-width: 1600px;
+  margin: 0 auto; 
+}
+
+
 /*Header*/
 header{
     background-color: #3E5C76;
-    font-family: "Bungee Spice","Georgia","Courier New";
+    font-family: "Titillium Web", Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
   }
@@ -20,14 +30,50 @@ header{
   nav {
     display: flex;
     justify-content: space-around;
-    font-family: "Bungee Spice","Georgia","Courier New";
+    font-family: "Titillium Web", Helvetica, sans-serif;
     font-size: 1em;
     padding: 40px;
     grid-column-start: 2;
     grid-column-end: 3;
   }
 
-  /*footer*/
+
+
+/*Main*/
+main{
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 50px 100px 150px 100px 600px
+}
+h1{
+  grid-column: 2/3;
+  grid-row:2/3;
+  text-align: center;
+  color:#1D2D44;
+  font-family: "RobotoC Condensed";
+}
+.text_box{
+  grid-column: 2/3;
+  grid-row:3/4;
+  text-align: center;
+  background-color: #3E5C76;
+  border: 10px solid  #1D2D44;
+  border-radius: 5px;  
+
+}
+h2{
+  color:#F0EBD8;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+}
+.main_img{
+  margin-left: -10px;
+  width: 1052.24px;
+  height:580px;
+  grid-column: 2/3;
+  grid-row:5/6;
+  border: 10px solid #3E5C76;  
+}
+/*Footer*/
 footer{
     background-color: #3E5C76;
     padding: 25px 50px;
@@ -38,27 +84,28 @@ footer{
     max-width: 1600px; 
   }
   footer p , footer a{
-    color: white;
+    color: #F0EBD8;
   }
   a:link { text-decoration: none; }
   footer p:hover {
     background-color: #1D2D44;
-    color: white;
+    color: #F0EBD8;
+    font-family: "Titillium Web", Helvetica, sans-serif;
   }
   .copyright:hover{
     background-color: #3E5C76;
-    color: white;
+    color: #F0EBD8;
     z-index: 0;
   }
   .copyright{
-    color:white;
+    color:#F0EBD8;
   }
   footer img{
-    width: 20%;
-    height: 20%;
-    background-color: white;
+    width: 160px;
+    height: 160px;
+    background-color: #F0EBD8;
     border-radius: 15px;
-    border: 10px solid black;
+    border: 10px solid #748CAB  ;
   }
   footer img:hover {
     background-color: #1D2D44;
