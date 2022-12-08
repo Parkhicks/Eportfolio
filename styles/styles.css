@@ -164,6 +164,185 @@ h2 .text_box{
 
 /*Main for Academic Achievements*/
 
+/*Main for Career History*/
+
+#professional{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 50px 75px 25px 275px 15px 100px 25px 650px 150px 650px 150px 650px 150px 650px 150px 650px 150px;
+}
+#ph{
+  font-family: "RobotoC Condensed";
+  grid-column:2/3;
+  grid-row:2/3;
+  text-align: center;
+  font-size: 2.2em;
+}
+#ph2{
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  grid-column:2/3;
+  grid-row:4/5;
+  text-align: center;
+  font-size: 1.15em;
+  background-color: #3E5C76;
+  border: 5px solid #1D2D44;
+}
+#ph3{
+  font-family: "RobotoC Condensed";
+  grid-column:2/3;
+  grid-row:6/7;
+  text-align: center;
+  font-size: 2em;
+}
+.jordan{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:16;
+  grid-row-end:17;
+  max-width:100%;
+  background-color:#3E5C76;
+  display:grid;
+  grid-template-columns:  repeat(10, 10%);
+  grid-template-rows: 45px 250px 5px 50px 5px 90px 10px 150px 10px 30px;
+  border: 5px solid #1D2D44;
+}
+.utah{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:12;
+  grid-row-end:13;
+  max-width:100%;
+  background-color:#3E5C76;
+  display:grid;
+  grid-template-columns:  repeat(10, 10%);
+  grid-template-rows: 45px 250px 5px 50px 5px 90px 10px 150px 10px 30px;
+  border: 5px solid #1D2D44;
+}
+.goldfish{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:14;
+  grid-row-end:15;
+  max-width:100%;
+  background-color:#3E5C76;
+  display:grid;
+  grid-template-columns:  repeat(10, 10%);
+  grid-template-rows: 45px 250px 5px 50px 5px 90px 10px 150px 10px 30px;
+  border: 5px solid #1D2D44;
+}
+.battleaxe{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:10;
+  grid-row-end:11;
+  max-width:100%;
+  background-color:#3E5C76;
+  display:grid;
+  grid-template-columns:  repeat(10, 10%);
+  grid-template-rows: 45px 250px 5px 50px 5px 90px 10px 150px 10px 30px;
+  border: 5px solid #1D2D44;
+}
+.vivint{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start:8;
+  grid-row-end:9;
+  max-width:100%;
+  background-color:#3E5C76;
+  display:grid;
+  grid-template-columns:  repeat(10, 10%);
+  grid-template-rows: 45px 250px 5px 50px 5px 90px 10px 150px 10px 30px;
+  border: 5px solid #1D2D44;
+}
+.companies{
+  width:100%;
+  height:250px;
+  grid-column: 3/9;
+  grid-row:2/3;
+  justify-content: center;
+}
+.left{
+  grid-column: 2/5;
+  grid-row:8/9;
+}
+.right{
+  grid-column: 6/10;
+  grid-row:7/8;
+}
+.contact{
+  grid-column: 3/9;
+  grid-row:10/11;
+  background-color: #1D2D44;
+  color:white;
+  text-align: center;
+  margin-bottom:-20px;
+}
+.ltext{
+  font-size: 1.15em;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  text-align: left;
+}
+.rtext{
+  font-size: 1.15em;
+  font-family: "Titillium Web", Helvetica, sans-serif;
+  text-align: left;
+}
+.company{
+  grid-column: 3/9;
+  grid-row:4/5;
+  text-align: center;
+  font-size:2em;
+  font-family: "RobotoC Condensed";
+}
+.jobtitle{
+  grid-column: 3/9;
+  grid-row:6/7;
+  font-size:1.5em;
+  text-align: center;
+  font-family: "RobotoC Condensed";
+}
+
+/*Footer*/
+footer{
+    background-color: #3E5C76;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px; 
+  }
+  footer p , footer a{
+    color: #F0EBD8;
+  }
+  a:link { text-decoration: none; }
+  footer p:hover {
+    background-color: #1D2D44;
+    color: #F0EBD8;
+    font-family: "Titillium Web", Helvetica, sans-serif;
+  }
+  .copyright:hover{
+    background-color: #3E5C76;
+    color: #F0EBD8;
+    z-index: 0;
+  }
+  .copyright{
+    color:#F0EBD8;
+  }
+  footer img{
+    width: 160px;
+    height: 160px;
+    background-color: #F0EBD8;
+    border-radius: 15px;
+    border: 10px solid #748CAB  ;
+  }
+  footer img:hover {
+    background-color: #1D2D44;
+    border-radius: 15px;
+
+  }
+
+
 /*Slideshow for Academic Achievements*/
 
 * {
@@ -252,44 +431,3 @@ h2 .text_box{
 .demo:hover {
   opacity: 1;
 }
-
-
-/*Footer*/
-footer{
-    background-color: #3E5C76;
-    padding: 25px 50px;
-    margin-top: 200px; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1600px; 
-  }
-  footer p , footer a{
-    color: #F0EBD8;
-  }
-  a:link { text-decoration: none; }
-  footer p:hover {
-    background-color: #1D2D44;
-    color: #F0EBD8;
-    font-family: "Titillium Web", Helvetica, sans-serif;
-  }
-  .copyright:hover{
-    background-color: #3E5C76;
-    color: #F0EBD8;
-    z-index: 0;
-  }
-  .copyright{
-    color:#F0EBD8;
-  }
-  footer img{
-    width: 160px;
-    height: 160px;
-    background-color: #F0EBD8;
-    border-radius: 15px;
-    border: 10px solid #748CAB  ;
-  }
-  footer img:hover {
-    background-color: #1D2D44;
-    border-radius: 15px;
-
-  }
