@@ -174,3 +174,38 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+/* For screens smaller than 768 pixels */
+@media (max-width: 767px) {
+  /* Adjust the font size of the main heading */
+  h1 {
+    font-size: 32px;
+  }
+  
+  /* Adjust the font size of the section headings */
+  h2 {
+    font-size: 24px;
+  }
+  
+  /* Adjust the width of the main content area */
+  .main {
+    width: 100%;
+  }
+  
+  /* Adjust the width and height of the profile image */
+  .profile-img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Adjust the size and spacing of the portfolio images */
+  .portfolio-item {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  /* Adjust the size and spacing of the contact icons */
+  .contact-icons i {
+    font-size: 32px;
+    margin: 0 10px;
+  }
+}
